@@ -112,8 +112,9 @@ footer {
 }
 @media (max-width: 768px) {
 
+    /* header */
     header {
-        flex-direction: column; /* يخلي الصورة فوق والتيتل تحت */
+        flex-direction: column;
     }
 
     header img {
@@ -124,32 +125,14 @@ footer {
         font-size: 20px;
     }
 
+    /* navbar */
     nav a {
         display: block;
         width: 100%;
         margin: 5px 0;
     }
 
-    form {
-        width: 90%;
-    }
-
-    td, th {
-        font-size: 12px;
-        padding: 5px;
-    }
-}
-@media (max-width: 768px) {
-
-    table {
-        display: block;
-        overflow-x: auto; /* يخلي الجدول يتحرك يمين وشمال */
-    }
-
-}
-@media (max-width: 768px) {
-
-    /* نشيل الفراغات الجانبية */
+    /* إزالة الفراغات */
     body {
         margin: 0;
         padding: 0;
@@ -164,9 +147,21 @@ footer {
         padding: 0;
     }
 
-    /* نخلي الجدول يملى الشاشة */
+    /* table */
     table {
+        display: block;
         width: 100%;
+        overflow-x: auto;
+    }
+
+    td, th {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    /* form */
+    form {
+        width: 90%;
     }
 
 }
