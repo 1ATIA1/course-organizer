@@ -136,3 +136,11 @@ footer {
         padding: 5px;
     }
 }
+@media (max-width: 768px) {
+
+    table {
+        display: block;
+        overflow-x: auto; /* يخلي الجدول يتحرك يمين وشمال */
+    }
+
+}
