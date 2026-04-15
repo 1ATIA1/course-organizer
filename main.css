@@ -48,14 +48,15 @@ main {
 }
 section {
     width: 100%;
+    overflow: hidden;
 }
 
 /* Table */
 table {
     width: 100%;
+    max-width: 100%;
     border-collapse: collapse;
     background-color: white;
-    margin: 0 auto; /* يوسّطه */
     table-layout: fixed;
 }
 
