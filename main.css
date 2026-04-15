@@ -52,6 +52,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     background-color: white;
+    margin: 0; /* أضف السطر ده */
 }
 
 table, th, td {
@@ -141,6 +142,29 @@ footer {
     table {
         display: block;
         overflow-x: auto; /* يخلي الجدول يتحرك يمين وشمال */
+    }
+
+}
+@media (max-width: 768px) {
+
+    /* نشيل الفراغات الجانبية */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* نخلي الجدول يملى الشاشة */
+    table {
+        width: 100%;
     }
 
 }
